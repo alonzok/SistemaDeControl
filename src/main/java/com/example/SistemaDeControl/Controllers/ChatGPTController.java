@@ -22,7 +22,7 @@ import java.util.List;
 
 @RestController
 public class ChatGPTController {
-//    @Value("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")
+//    @Value("")
 //    private String apiKey;
 
     @Autowired
@@ -35,7 +35,7 @@ public class ChatGPTController {
 
         String url = "https://api.openai.com/v1/chat/completions";
         String model = "gpt-3.5-turbo";
-        String apiKey = "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";
+        String apiKey = "";
 
         //            URL obj = new URL(url);
 //            HttpURLConnection connection = (HttpURLConnection) obj.openConnection();
