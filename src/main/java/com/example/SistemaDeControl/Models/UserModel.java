@@ -4,6 +4,10 @@ import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import org.springframework.data.annotation.Id;
 
+/**
+ * Modelo que representa un usuario en el sistema de control.
+ * Contiene un ID, un nombre de usuario y una contraseña.
+ */
 @NoArgsConstructor
 @AllArgsConstructor
 public class UserModel {

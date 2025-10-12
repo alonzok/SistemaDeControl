@@ -9,6 +9,10 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+/**
+ * Servicio que maneja la lógica de negocio relacionada con los usuarios.
+ * Proporciona métodos para el inicio de sesión y la gestión de usuarios.
+ */
 @Service
 public class UserService  {
 

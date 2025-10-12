@@ -2,6 +2,9 @@ package com.example.SistemaDeControl.Listener;
 
 import org.springframework.web.client.RestTemplate;
 
+/**
+ * Implementación de un listener que realiza una llamada HTTP a una URL específica cuando se actualiza un evento.
+ */
 public class CreateEDAListener implements EventListener{
 
     private final String url;
@@ -10,6 +13,11 @@ public class CreateEDAListener implements EventListener{
         this.url = url;
     }
 
+    /**
+     * Método que se llama cuando ocurre un evento. Realiza una llamada HTTP GET a la URL especificada.
+     * TODO: Implementar el la funcionalidad de update.
+     * @param codigoEvento El código del evento que ha ocurrido.
+     */
     @Override
     public void update(int codigoEvento) {
         RestTemplate restTemplate = new RestTemplate();

@@ -8,6 +8,10 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.*;
 
+/**
+ * Servicio que maneja la lógica de negocio relacionada con los actuadores.
+ * Proporciona métodos para crear, obtener, actualizar y eliminar actuadores.
+ */
 @Service
 public class ActuadorService {
 

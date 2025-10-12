@@ -1,10 +1,11 @@
 package com.example.SistemaDeControl.Models.ChatGPT;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.List;
 
+/**
+ * Clase que representa la respuesta de la API de OpenAI (ChatGPT).
+ * Contiene una lista de opciones de respuesta generadas por el modelo.
+ */
 public class OpenAIResponse {
     private List<Choice> choices;
 

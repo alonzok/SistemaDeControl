@@ -11,6 +11,10 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
+/**
+ * Servicio que maneja la lógica de negocio relacionada con los suscriptores.
+ * Proporciona métodos para suscribirse, desuscribirse y notificar eventos a los suscriptores.
+ */
 @Service
 public class SubscriberService {
 
